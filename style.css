@@ -49,15 +49,29 @@ h1 {
     height: 350px;
     display: flex;
     justify-content: space-evenly;
+
 }
 
 .sites img {
-    width: 33%;
+    width: 95%;
     height: 100%;
-    border: 1px solid #000;
-    background: none;
+    box-shadow: 10px 10px 10px #000;
+    border-radius: 5px;
 }
 
-.sites img :hover {
-    background: #000;
+.sites img:hover {
+    opacity: 0.3;
+}
+
+#design-spec, #prototype, #kgs {
+    width: 33%;
+    text-align: center;
+    color: #fff;
+    line-height: 2;
+}
+
+
+
+#design-spec img:hover ~ p, #prototype img:hover ~ p, #kgs img:hover ~ p {
+ color: #000;
 }
