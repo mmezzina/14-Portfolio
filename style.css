@@ -46,15 +46,15 @@ h1 {
     margin-left: 15%;
     margin-right: 5%;
     width: 80%;
-    height: 350px;
+    height: 600px;
     display: flex;
     justify-content: space-evenly;
-
+    
 }
 
 .sites img {
     width: 95%;
-    height: 100%;
+    height: 60%;
     box-shadow: 10px 10px 10px #000;
     border-radius: 5px;
 }
@@ -70,8 +70,30 @@ h1 {
     line-height: 2;
 }
 
-
+.sites a:visited, .sites a:link {
+    text-decoration: underline;
+    color: #000;
+}
 
 #design-spec img:hover ~ p, #prototype img:hover ~ p, #kgs img:hover ~ p {
- color: #000;
+    color: #000;
+}
+
+.separator {
+    border-bottom: 1px solid #000;
+}
+
+/* Footer */
+footer {
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-top: 1%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    height: 100px;
 }
