@@ -46,14 +46,32 @@ h1 {
     margin-left: 15%;
     margin-right: 5%;
     width: 80%;
-    height: 600px;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.separator {
+.profile {
+    width: 45%;
+    text-align: justify;
+    line-height: 2.5;
+    overflow-y: scroll;
+}
+
+.collage {
+    width: 34%;
+}
+
+.collage img {
+    width: 100%;
+    height: 700px;
+}
+
+/* .separator {
     border-bottom: 1px solid #000;
 }
 
-/* Footer */
+    Footer
 footer {
     margin-left: 15%;
     margin-right: 5%;
@@ -66,4 +84,4 @@ footer {
 
 footer img {
     height: 100px;
-}
+} */
